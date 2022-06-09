@@ -1,0 +1,35 @@
+#banner{
+    background-image: url(../nazare-1.jpeg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-text{
+    background-color: #ffffffb0;
+    padding:5% 10%;
+    width: 100%;
+    color: #1C1C1C;
+}
+
+@media screen {
+    #banner{
+        height: 30vh;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #banner-text{
+        background-color: #ffffffb0;
+        padding:5% 5%;
+        width: 60%;
+        color: #1C1C1C;
+        margin-bottom: 5%;
+    }
+}

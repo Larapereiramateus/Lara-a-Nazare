@@ -1,0 +1,25 @@
+.btn{
+    border: 2px solid #1C1C1C;
+    color: #1C1C1C;
+    font-family: 'Roboto', sans-serif;  
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 16px;
+}
+
+.btn:hover{
+    background-color: #1C1C1C;
+    color: #fafaff;
+}
+
+@media screen {
+    .btn{
+        border: 2px solid #1C1C1C;
+        color: #1C1C1C;
+        font-family: 'Roboto', sans-serif;  
+        text-decoration: none;
+        font-size: 16px;
+        padding: 8px 8px;
+        display:inline-block;
+    }
+}

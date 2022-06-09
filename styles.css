@@ -1,0 +1,153 @@
+@import url("components/navbar.css");
+@import url("components/btn.css");
+@import url("components/card.css");
+@import url("components/banner.css");
+
+body{
+    background-color: #fafaff;
+    overflow-x: hidden;
+    margin:0;
+}
+h1{
+    Color: rgb(29, 0, 56);
+    font-family: 'Roboto', sans-serif;    
+    font-size: 42px;
+}
+h2{
+    Color: rgb(29, 0, 56);
+    font-family: 'Roboto', sans-serif;  
+    font-size: 36px;
+}
+h3{
+    Color: rgb(29, 0, 56);
+    font-family: 'Roboto', sans-serif;  
+    font-size: 30px;
+}
+h4{
+    Color: rgb(29, 0, 56);
+    font-family: 'Roboto', sans-serif;  
+    font-size: 24px;
+}
+p{
+    Color: rgba(0, 0, 0, 0.8);
+    font-family: 'Roboto', sans-serif;  
+    font-size: 18px;
+}
+a:hover{
+    color:rgba(0, 42, 133);
+    font-weight: 800;
+}
+ol{
+    text-align:left;
+}
+.video{
+    width:100vw;
+    height:100vh;
+    padding: 5%;
+}
+#play{
+    width: 90%;
+    height:100%;
+}
+.essai {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2% 10%;
+    align-self: center;
+}
+.presentation {
+    padding-right: 20px;
+}
+#img1 {
+    width: 100%;
+    align-self: center;
+    padding-top: 20%;
+}
+.itineraire{
+    background-color: rgba(197, 197, 197, 0.705);
+    padding: 2%;
+    margin: 5% 10%;
+    display: flex;
+}
+.map{
+    padding:2%;
+}
+#photos{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: repeat(2, 1fr);
+    width:90%;
+    padding: 0% 5%;
+}
+#grid > img{
+    width:80%;
+    height: 80%;
+    object-fit: cover;
+    align-self: center;
+    margin: 0 auto;
+}
+footer{
+    height: 100vh;
+    background: #adadad;
+    padding: 5% 10%;
+}
+i{
+    margin-right:5px;
+    color: rgba(0, 42, 133);
+}
+
+.lieux > ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.lieux{
+    padding: 2% 10%;
+}
+@media screen {
+    .essai{
+        display: flex;
+        flex-direction: column;
+    }
+    .presentation{
+        width: 100%;
+    }
+    .img1{   
+        width: 100%;
+        align-self: center;
+        padding-top: 10%;
+        margin:0;
+    }
+    #play{
+        margin-bottom: 30%;
+    }
+    .lieux{
+        margin-top:30%
+    }
+    #photos{
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 1fr);
+        width:100%;
+        padding: 0% 5%;
+    }
+    #grid > img{
+        width:80%;
+        height: 80%;
+        object-fit: cover;
+        align-self: center;
+        margin: 0 auto;
+    }
+    .itineraire{
+        padding: 2%;
+        margin: 5% 5%;
+        flex-direction: column;
+    }
+    .map{
+        width: 95%;
+        margin-top: 2%;
+        padding:2%;
+        object-fit: cover;
+    }
+}
